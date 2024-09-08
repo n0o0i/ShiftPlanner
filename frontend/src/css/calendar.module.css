@@ -1,0 +1,130 @@
+.calendar {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+} 
+
+Modal {
+  border: none;
+}
+
+.ReactModal__Content {
+  border: none;
+}
+
+.dialog{
+  border-radius: 10px;
+  border-color: black;
+  /* border-style: none; */
+  padding: 0;
+  width: 18em;
+  text-align: center;
+
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+  animation-timing-function: ease-out;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.calendarDialog{
+  border-radius: 10px;
+  border-color: black;
+  /* border-style: none; */
+  padding: 0;
+  width: 95%;
+  text-align: center;
+
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sekouCalendarDialog {
+  width: 100%;
+}
+
+.multiSelection {
+  display: inline-block;
+}
+
+.multiSelection_enable {
+  display: inline;
+}
+
+.multiSelection_input {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.multiSelection_inputButton {
+  display: flex;
+}
+
+.noDateSelectedDateError_text {
+  margin: 0;
+}
+
+.fullCalendar {
+  background-color: red;
+}
+
+.fc-event-title {
+  font-size: 5px;
+}
+
+.fc .fc-toolbar-title { 
+  font-size: 1.5em;
+  padding: 5px 10px 0px; 
+}
+
+.loaderWrapper {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  z-index: 9999;
+  background: rgba(0, 0, 0, .5);
+}
+
+.loader {
+  position: fixed;
+  z-index: 9999;
+  margin: 10% 25%;
+  width: 50%;    
+}
+@media (max-width: 767px) {
+  .loader {
+      margin: 60% 25%;
+  }
+}
+
+.goToConfirmPage {
+  display: block;
+  text-align: center;
+}
+
+.goToConfirmPageButton {
+  -webkit-appearance: none;
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 30%;
+  height: 20px;
+  margin-bottom: 10px;
+}

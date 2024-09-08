@@ -1,0 +1,103 @@
+body {
+}
+
+.login_body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/login_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login_wrapper {
+    height: 250px;
+    margin: 200px auto;
+    text-align: center;
+    display: flex;
+}
+
+.login_form {
+    height: 100%;
+    width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login_logo {
+    margin-top: 30px;
+    width: 50px;
+}
+
+.login_text {
+    margin: 5px auto;
+}
+
+.form_input {
+    margin: 10px auto;
+    text-align: center; 
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+}
+
+input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000000;
+    -webkit-appearance: none;
+    background-color: transparent;
+    width: 200px;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.login_email {
+    margin: 5px auto;
+}
+
+.login_name {
+    margin: 5px auto;
+}
+
+.login_submit {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    background-color: transparent;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+
+.loaderWrapper {
+    position: fixed;
+    inset: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .5);
+}
+
+.loader {
+    position: fixed;
+    z-index: 9999;
+    margin: 10% 25%;
+    width: 50%;    
+}
+@media (max-width: 767px) {
+    .loader {
+        margin: 60% 25%;
+    }
+}
+
+.google_login {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,9 @@
+.notFound {
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .notFoundImg {
+        height: 500px;
+    }
+}

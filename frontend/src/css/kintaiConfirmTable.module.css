@@ -1,0 +1,45 @@
+.tableWrapper {
+    overflow-x: scroll;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 2px #000000 solid;
+}
+
+.confirmTable {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.confirmtable_header {
+    background-color: #fdd9c0;
+}
+
+td {
+    text-align: center;
+}
+
+.emailNameTable {
+    margin-bottom: 10px;
+}
+
+.emailNameTable th {
+    background-color: #fdd9c0;
+}
+
+.td_date {
+    width: 40px;
+}
+
+.td_day {
+    width: 10px;
+}
+
+.td_day_sat {
+    background-color: #e2f6ff;
+}
+
+.td_day_sun {
+    background-color: #fcd9d9;
+}

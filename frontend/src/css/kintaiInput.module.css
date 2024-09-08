@@ -1,0 +1,99 @@
+.kintaiInput {
+    /* background-color: #FFFFFF; */
+    width: 300px;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    text-align: center;
+    border-style: none;
+    /* float: left; */
+  }
+
+.kintaiInput_contents {
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto;
+  width: auto;
+}
+
+.jikantai {
+  display: inline-block;
+}
+
+.jikan_shitei {
+  display: block;
+  height: auto;
+}
+
+.kibou_syukkin {
+  justify-content: center;
+  display: flex;
+}
+
+.kibou_syukkin_text {
+    display: inline;
+}
+
+.kibou_syukkin_time {
+    margin-top: 6%;
+    display: inline;
+    height: 50%;
+    width: auto;
+}
+
+.kibou_taikin {
+  justify-content: center;
+  display: flex;
+}
+
+.kibou_taikin_text {
+  display: inline-flex;
+}
+
+.kibou_taikin_time {
+    margin-top: 6%;
+    display: inline;
+    height: 50%;
+    width: auto;
+}
+
+.kakutei_cancel {
+  display: block;
+}
+
+.shift_kakutei {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 10px;
+
+  background: #f1e767;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f1e767), to(#feb645));
+  background: -webkit-linear-gradient(top, #f1e767 0%, #feb645 100%);
+  background: linear-gradient(to bottom, #f1e767 0%, #feb645 100%);
+}
+
+.shift_cancel {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.kintaiInput_header p {
+  font-size: 25px;
+  padding-top: 10px;
+  background-color: #cea888;
+  color: #fff;
+  margin-top: 0%;
+}
+
+.kintaiInput_contents_header {
+  margin: 0%;
+  padding-bottom: 3%;
+}
+
+.bikou_text {
+  display: block;
+  /* margin: 10px auto; */
+}

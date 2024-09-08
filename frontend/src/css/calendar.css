@@ -1,0 +1,39 @@
+.fc-day-sun {
+    color: red;
+}
+
+.fc-day-sat {
+    color: blue;
+}
+
+.fc-col-header {
+    border: 0.5px #000000 solid;
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+    .fc-sticky {
+        font-size: 10px;
+    }
+}
+
+/* .fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+    margin-bottom: 0;
+}
+
+.fc-daygrid-day-events {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.fc .fc-event-time {
+    display: none;
+}
+
+tr {
+    height: 100px;
+} */

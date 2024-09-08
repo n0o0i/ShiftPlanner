@@ -1,0 +1,63 @@
+.calendar {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+} 
+
+Modal {
+  border: none;
+}
+
+.ReactModal__Content {
+  border: none;
+}
+
+.dialog{
+  border-radius: 10px;
+  border-color: black;
+  /* border-style: none; */
+  padding: 0;
+  width: 18em;
+  text-align: center;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.calendarDialog{
+  border-radius: 10px;
+  border-color: black;
+  /* border-style: none; */
+  padding: 0;
+  width: 70%;
+  text-align: center;
+}
+
+.multiSelection {
+  display: inline-block;
+}
+
+.multiSelection_enable {
+  display: inline;
+}
+
+.multiSelection_input {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.multiSelection_inputButton {
+  display: flex;
+}
+
+.noDateSelectedDateError_text {
+  margin: 0;
+}
+
+.fc-event-title {
+  font-size: 10px;
+}
+
+.fc .fc-toolbar-title { font-size: 1.5em; padding: 5px 10px 0px; }

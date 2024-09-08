@@ -1,0 +1,15 @@
+.body {
+    display: flex;
+    height: auto;
+}
+
+.calendar {
+    display: block;
+    width: 100%;
+}
+
+.goToConfirmPage {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
